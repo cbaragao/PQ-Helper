@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PQ Helper", "PQ Helper.vbproj", "{815383B9-FC51-46F8-8689-DCDC0F1D3D10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3F7D6A0F-B754-4FE9-9FF8-41FCCA6D5007}"
+	ProjectSection(SolutionItems) = preProject
+		PQHelper.vb = PQHelper.vb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{815383B9-FC51-46F8-8689-DCDC0F1D3D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815383B9-FC51-46F8-8689-DCDC0F1D3D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815383B9-FC51-46F8-8689-DCDC0F1D3D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815383B9-FC51-46F8-8689-DCDC0F1D3D10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15057567-26C8-466F-9FA4-52060A10896B}
+	EndGlobalSection
+EndGlobal
