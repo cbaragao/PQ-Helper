@@ -383,6 +383,7 @@ Partial Class FrmPQHelper
         ' 
         ' txtParamCode
         ' 
+        txtParamCode.BorderStyle = BorderStyle.FixedSingle
         txtParamCode.Location = New Point(20, 40)
         txtParamCode.Multiline = True
         txtParamCode.Name = "txtParamCode"

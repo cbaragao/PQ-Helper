@@ -4,10 +4,19 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <RootNamespace>PQ_Helper</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>PQ_Helper.My.MyApplication</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>pqsharedlibrary.ico</ApplicationIcon>
+    <Company>PQHelper</Company>
+    <RepositoryUrl>https://github.com/cbaragao/PQ-Helper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>powerquery;m;vb.net</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="pqsharedlibrary.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />
